@@ -1,0 +1,23 @@
+name: {{ cookiecutter.repo_name }}
+dependencies:
+  - python=3.7
+  - mypy
+  - sphinx
+  - doit
+  - cookiecutter
+  - pylint
+  - pip
+  - conda
+  - ipython
+  - jupyter
+  - nbconvert
+  - pytest
+  - black
+  - jupyter_contrib_nbextensions
+  - pip:
+    - nbdime
+    - ipykernel
+channels:
+  - defaults
+  - conda-forge
+
